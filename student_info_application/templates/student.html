@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student_Data</title>
+</head>
+<body>
+    <form action="/save" method="post">
+        <a href="/">BACK</a>
+      {{message}}<br><br>
+      Student_ID : <input type="text" name="sid" value="{{d_student.sid}}" autocomplete="off"><br><br>
+      Student_NAME : <input type="text" name="snm" value="{{d_student.snm}}"><br><br>
+      Student_AGE : <input type="text" name="sage" value="{{d_student.sage}}"><br><br>
+      Student_ADDRESS : <input type="text" name="saddr" value="{{d_student.saddr}}"><br><br>
+      Student_EMAIL : <input type="text" name="smail" value="{{d_student.smail}}"><br><br>
+      Student_PHONE_NUMBER : <input type="text" name="sphone" value="{{d_student.sphone}}"><br><br>
+      <input type="submit" name="submit" value="submit"><br><br>
+    </form>
+
+</body>
+</html>

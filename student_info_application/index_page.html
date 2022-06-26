@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student_operations</title>
+</head>
+<body>
+
+
+     <a href="/save">Add student</a>
+     <a href="/stud/read">show student</a>
+     <a href="/stud/search">search student</a>
+
+     {%if flag%}
+          <br><br>
+          <form action="/stud/search" method="post">
+          <input type="radio" name="search" value="id">ID
+          <input type="radio" name="search" value="name">NAME
+          Search Here: <input type="text" name="input" value="inputval">
+          <input type="Submit">
+          </form>
+     <br>
+
+     {{students}}
+     {% endif %}
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show List Products</title>
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+    <a href="/">HOME</a><br><br>
+    <table>
+            <thead>
+                <td>Product Id</td>
+                <td>Product Name</td>
+                <td>Product Price</td>
+                <td>Product Qty</td>
+                <td>Product Vendor</td>
+                <td>Product BarCode</td>
+                <td>ACTION</td>
+            </thead>
+
+
+            <tbody>
+
+            {% for prod in products_list %}
+
+                 <tr>
+                     <td>{{prod.id}}</td>
+                     <td>{{prod.name}}</td>
+                     <td>{{prod.price}}</td>
+                     <td>{{prod.qty}}</td>
+                     <td>{{prod.vendor}}</td>
+                     <td>{{prod.barcode}}</td>
+                     <td><a href="/product/edit/{{prod.id}}">EDIT</a> | <a href="/product/delete/{{prod.id}}">DELETE</a> </td>
+                 </tr>
+            {% endfor %}
+            </tbody>
+    </table>
+
+</body>
+</html>

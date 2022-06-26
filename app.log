@@ -1,0 +1,84 @@
+2022-05-01 18:04:22,482 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:22,529 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:22,529 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:22,529 - 50 - root - CRITICAL - This is a critical message
+2022-05-01 18:04:25,542 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:25,542 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:25,542 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:25,558 - 50 - root - CRITICAL - This is a critical message
+2022-05-01 18:04:28,572 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:28,572 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:28,572 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:28,572 - 50 - root - CRITICAL - This is a critical message
+2022-05-01 18:04:31,585 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:31,585 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:31,585 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:31,585 - 50 - root - CRITICAL - This is a critical message
+2022-05-01 18:04:34,599 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:34,599 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:34,599 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:34,599 - 50 - root - CRITICAL - This is a critical message
+2022-05-01 18:04:37,610 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:37,610 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:37,610 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:37,610 - 50 - root - CRITICAL - This is a critical message
+2022-05-01 18:04:40,621 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:40,621 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:40,621 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:40,621 - 50 - root - CRITICAL - This is a critical message
+2022-05-01 18:04:43,631 - 20 - root - INFO - This is an info message
+2022-05-01 18:04:43,631 - 30 - root - WARNING - This is a warning message
+2022-05-01 18:04:43,631 - 40 - root - ERROR - This is an error message
+2022-05-01 18:04:43,631 - 50 - root - CRITICAL - This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message

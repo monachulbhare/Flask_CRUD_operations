@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Information</title>
+</head>
+<body>
+
+    <a href="/">HOME</a><br><br>
+
+    {{result}}
+    <br>
+    <form action="/product/save" method="post">
+        Product ID : <input type="text" name="pid" value="{{d_product.id}}"> <br><br>
+        Product Name : <input type="text" name="pnm" value="{{d_product.name}}"> <br><br>
+        Product Price : <input type="text" name="prc" value="{{d_product.price}}"> <br><br>
+        Product Qty : <input type="text" name="qty" value="{{d_product.qty}}"> <br><br>
+        Product Vendor : <input type="text" name="ven" value="{{d_product.vendor}}"> <br><br>
+        Product Barcode : <input type="text" name="bcode" value="{{d_product.barcode}}"> <br><br>
+        <input type="submit">
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student_list</title>
+    <style>
+     table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+     tr,tb{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        }
+     tr:nth-child(even) {
+      background-color: #dddddd;
+       }
+
+    </style>
+</head>
+<body>
+     <table>
+         <thead>
+
+         <td>Student_ID</td>
+         <td>Student_NAME</td>
+         <td>Student_AGE</td>
+         <td>Student_ADDRESS</td>
+         <td>Student_EMAIL</td>
+         <td>Student_PHONE_NUMBER</td>
+         <td>Action</td>
+
+         </thead>
+
+       <tbody>
+         {%for stud in student_list%}
+         <td>{{stud.id}}</td>
+         <td>{{stud.name}}</td>
+         <td>{{stud.age}}</td>
+         <td>{{stud.address}}</td>
+         <td>{{stud.email}}</td>
+         <td>{{stud.phone_number}}</td>
+         <td><a href="/stud/edit/sid"></a>>EDIT <a href="\stud\delete\<int:sid>"></a></td>
+         {%endfor %}
+
+         </tbody>
+
+     </table>
+
+</body>
+</html>
