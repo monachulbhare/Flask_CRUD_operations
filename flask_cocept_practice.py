@@ -3,6 +3,7 @@ from email.mime.text import MIMEText
 
 senders = "vaishnavichulbhare7447@gmail.com"
 receiver= "poojabhagwat9257@gmail.com"
+print({"Sender":senders,"Receiver":receiver})
 
 
 import sys
